@@ -1,0 +1,32 @@
+.container{
+  display: block;
+  margin: auto;
+}
+.foods{
+  width: 100rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 20rem;
+}
+
+span{
+  font-size: 4rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.food{
+  margin: 3rem;
+  border-radius: 12px;
+  background-color: pink;
+  text-align: center;
+  border: 3px solid black;
+}
