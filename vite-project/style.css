@@ -1,22 +1,26 @@
+
 .container{
   display: block;
   margin: auto;
+  width: 60rem;
 }
+
+h1 {
+  text-align: center;
+}
+
 .foods{
-  width: 100rem;
+  width: 50rem;
   display: flex;
-  flex-wrap: wrap;
+  
 }
 
 img{
-  width: 20rem;
-}
+  width: 16rem;
+  height: 16rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 
-span{
-  font-size: 4rem;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 .buttons{
