@@ -24,7 +24,10 @@ img{
 }
 
 .buttons{
-  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .food{
@@ -32,5 +35,5 @@ img{
   border-radius: 12px;
   background-color: pink;
   text-align: center;
-  border: 3px solid black;
+  border: 3px solid rgb(216, 68, 68);
 }
