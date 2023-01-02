@@ -5,6 +5,8 @@ const selectors = {
   all: document.querySelector("#all"),
   container: document.querySelector(".container"),
   foods: document.querySelector(".foods"),
+  dark: document.querySelector("#dark"),
+  light: document.querySelector("#light"),
 };
 
 export { selectors };

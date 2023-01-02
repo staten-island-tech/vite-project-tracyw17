@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+  --h1: 7.594rem;
+  --h2: 5.063rem; 
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
+
+  --primary: #967969;
+  --secondary: rgb(90, 15, 15);
+  --text: black;
+  --button: #dfc0a6;
+}
+
+.light{
+  --primary: rgb(170, 220, 240);
+  --secondary: #131574;
+  --text: rgb(0, 0, 0);
+  --button: rgb(152, 178, 202)
+  ;
+}
+
+.dark{
+  --primary: #967969;
+  --secondary: rgb(90, 15, 15);
+  --text: black;
+  --button: #dfc0a6;
+    
+}
+
+body{
+  background-color: var(--primary);
+  font-family: 'Nunito', sans-serif;
+}
 .container{
+  width: 80%;
   display: block;
   margin: auto;
+
 }
 .foods{
   width: 100rem;
@@ -9,24 +46,38 @@
 }
 
 img{
-  width: 20rem;
+  width: 15rem;
+  margin: 1rem 2rem;
 }
 
 span{
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-align: center;
   margin: 1rem;
   padding: 1rem;
+  background-color: var(--button);
+  color: var(--text);
+  border-radius: 25px;
+  box-shadow: 0.3rem 0.3rem var(--secondary);
 }
 
 .buttons{
   text-align: center;
+  margin-top: 3rem;
 }
 
-.food{
-  margin: 3rem;
-  border-radius: 12px;
-  background-color: pink;
+.heading{
+  font-size: 7rem;
   text-align: center;
-  border: 3px solid black;
+  color: var(--text)
+}
+.food{
+  font-size: 2rem;
+  margin: 3rem;
+  width: 25%;
+  border-radius: 30px;
+  background-color: var(--button);
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem var(--secondary);
+  color: var(--text)
 }

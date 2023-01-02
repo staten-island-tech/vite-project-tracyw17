@@ -37,3 +37,11 @@ selectors.all.addEventListener("click", function () {
     selectors.foods.insertAdjacentHTML("afterbegin", injector(sush))
   );
 });
+
+selectors.dark.addEventListener("click", function () {
+  document.body.className = "dark";
+});
+
+selectors.light.addEventListener("click", function () {
+  document.body.className = "light";
+});
